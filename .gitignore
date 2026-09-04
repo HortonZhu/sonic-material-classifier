@@ -7,8 +7,8 @@ venv/
 # Datasets
 data/*
 
-# Allow sample data folder
-!data/sample/
+# Diagrams
+hardware/docs/*
 
 # OS & IDE metadata
 .DS_Store
