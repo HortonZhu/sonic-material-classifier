@@ -5,10 +5,7 @@ __pycache__/
 venv/
 
 # Datasets
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+data/*
 
 # Allow sample data folder
 !data/sample/
