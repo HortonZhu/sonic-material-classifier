@@ -2,7 +2,7 @@
 Material classification device that uses a transducer pair to determine if a material is metal, foam, or paper.
 # SONIC: Sound Operating for Nodal Identification of Compositions
 
-SONIC is a material classification device powered by an ESP32 microcontroller and an XGBoost classification model. It uses a pair of 40kHz transducers to fire an acoustic impulse that reflects off a target material, while the second transducer captures the response waveform. Then, acoustic signal features are extracted and evaluated in real time to classify the sampled material.
+SONIC is a material classification device powered by an ESP32 microcontroller and an XGBoost classification model. It uses a pair of 40kHz transducers to fire an acoustic impulse that reflects off a target material, while the second transducer captures the response waveform. Then, acoustic signal features are extracted and evaluated in real time to classify the sampled material. Over 300 sample waveforms were collected to reach a 93% classification accuracy across three materials.
 
 ## Hardware & Circuit Diagram
 Circuit diagrams are available in `hardware/docs/`.
